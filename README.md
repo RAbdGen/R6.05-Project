@@ -29,7 +29,14 @@ Installez toutes les dépendances du projet avec npm :
 ```bash
 npm install
 ```
-
+Créez un fichier `.env` à la racine du projet et ajoutez les variables d'environnement suivantes :
+```env
+SMTP_HOST=smtp.ethereal.email
+SMTP_PORT=587
+SMTP_USER=garland.goodwin@ethereal.email
+SMTP_PASSWORD=xxz7ZCwskrKK5sddYn
+EMAIL_FROM="Project-R6.05 <garland.goodwin@ethereal.email>"
+```
 ---
 
 ## 3. Lancer MySQL avec Docker
